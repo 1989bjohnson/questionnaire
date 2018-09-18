@@ -1,0 +1,25 @@
+{
+  "surveyName": "Simple Questions",
+  "serveyId": 1,
+  "creationDate": "9/17/2018",
+  "questions": [
+    {
+      "title": "Question 1",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et.",
+      "path": "/question1",
+      "order": 1
+    },
+    {
+      "title": "Question 2",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et.",
+      "path": "/question2",
+      "order": 2
+    },
+    {
+      "title": "Question 3",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et.",
+      "path": "/question3",
+      "order": 3
+    }
+  ]
+}
