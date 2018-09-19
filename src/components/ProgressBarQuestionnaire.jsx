@@ -5,9 +5,6 @@ class ProgressBarQuestionnaire extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      percentage: 0
-    };
   }
   render() {
     return (
