@@ -4,7 +4,7 @@ class Question extends Component {
   state = {};
 
   render() {
-    var questions = [
+    const questions = [
       {
         title: "Question 1",
         content:

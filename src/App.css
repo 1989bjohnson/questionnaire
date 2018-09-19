@@ -48,3 +48,20 @@ button {
   width: 150px;
   margin: 20px;
 }
+
+.progress-bar {
+  position: relative;
+  height: 20px;
+  width: 80%;
+  border-radius: 50px;
+  border: 1px solid #333;
+  margin: 20px auto 0;
+}
+
+.filler {
+  background: #1da598;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  transition: width 0.2s ease-in;
+}
