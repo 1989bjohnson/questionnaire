@@ -31,7 +31,6 @@ class Questionnaire extends Component {
       percentage: (this.state.percentage += (1 / this.state.length) * 100),
       isHome: false
     });
-    console.log("order is " + this.state.order);
   };
 
   handlePrev = () => {
