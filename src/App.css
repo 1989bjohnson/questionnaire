@@ -35,18 +35,45 @@
 
 h1 {
   text-align: center;
+  color: #258b9e;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  color: #293646;
+  font-family: "Roboto", sans-serif;
 }
 
 .questions {
   width: 80%;
-  margin: 5% auto;
-  border: 1px solid black;
+  margin: 30px auto;
   text-align: center;
+  transition: opacity 0.2s ease-in;
+  background: rgba(196, 207, 220, 0.2);
+  padding: 80px 0;
+}
+
+.question {
+  padding: 0 40px;
 }
 
 button {
   width: 150px;
+  height: 36px;
   margin: 20px;
+  background-color: #5581b2;
+  border: 1px solid #5581b2;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e618a;
+  border-color: #5581b2;
 }
 
 .progress-bar {
@@ -54,14 +81,32 @@ button {
   height: 20px;
   width: 80%;
   border-radius: 50px;
-  border: 1px solid #333;
+  border: 1px solid rgba(27, 103, 117, 0.6);
   margin: 20px auto 0;
 }
 
 .filler {
-  background: #1da598;
+  background: #ec7625;
   width: 0;
   height: 100%;
   border-radius: inherit;
   transition: width 0.2s ease-in;
+}
+
+.logo-container {
+  width: 187px;
+  height: 48px;
+  margin: 48px auto 24px;
+}
+
+.logo {
+  fill: #ec7625;
+}
+
+.icon {
+  fill: #1b6775;
+}
+
+.hide {
+  display: none;
 }
